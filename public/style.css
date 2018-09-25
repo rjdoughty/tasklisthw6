@@ -48,9 +48,14 @@ main {
     border-radius: 20px;
 }
 #todoItems {
-  width: 400px;
+  width: 500px;
 }
 
+#remove {
+    position: absolute;
+    right: 400px;
+    font-weight: 800;
+}
 
 @media only screen and (min-width: 600px){
 
