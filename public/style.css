@@ -1,0 +1,61 @@
+body {
+    height: 98vh
+} 
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px 50px 1fr;
+}
+#header {
+    background-color: rgb(172, 61, 187);
+    color: white;
+    font-size: 30px;
+    margin: 20px;
+
+}
+
+#inputs {
+    margin: auto;
+    text-align: center;
+    
+   
+}
+
+#task {
+    width: 250px;
+    border-radius: 20px;
+}
+
+#tasklist {
+    width: auto;
+    margin: auto;
+
+
+}
+.container {
+    width: 50px;
+
+}
+
+#todos {
+  
+    background-color: rgb(235, 239, 243);
+    margin: 10px;
+    height: 30px;
+    padding: 5px ;
+    width:  auto;
+    border-radius: 20px;
+}
+#todoItems {
+  width: 400px;
+}
+
+
+@media only screen and (min-width: 600px){
+
+#contains {
+    border: 1px solid black;
+}
+
+}
