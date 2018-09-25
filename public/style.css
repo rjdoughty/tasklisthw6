@@ -52,8 +52,8 @@ main {
 }
 
 #remove {
-    position: absolute;
-    right: 400px;
+    position: relative;
+    left: 325px;
     font-weight: 800;
 }
 
